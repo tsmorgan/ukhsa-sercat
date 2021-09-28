@@ -1,0 +1,232 @@
+
+{% extends "layout_unbranded.html" %}
+
+{% block pageTitle %}
+  UKHSA Service Catalogue
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/">Home</a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h1 class="govuk-heading-xl" style="font-size:6rem">
+        UKHSA
+        <span class="govuk-caption-xl" style="font-size:4.5rem">List of Services</span>
+      </h1>
+      <p style="margin-bottom:3rem">Services that UKHSA delivers, or plays a part in delivering, as an end user would know them.</p>
+
+    </div>
+
+    <div class="govuk-grid-column-full" style="background-color:white; padding:1rem 2rem">
+
+      <h1 class="govuk-heading-l table-header">
+        Customer facing services
+      </h1>
+
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Name</th>
+            <th scope="col" class="govuk-table__header">Delivered by</th>
+          </tr>
+        </thead>
+
+        <tbody class="govuk-table__body">
+
+          <!-- - - - - - - TEST - - - - - - -->
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              Getting tested
+            </th>
+            <td class="govuk-table__cell"></td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="services/get-a-free-pcr-test-to-check-if-you-have-coronavirus">Get a free PCR test to check if you have coronavirus</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Order coronavirus rapid lateral flow tests</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Register a PCR home test kit</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Register a coronavirus test</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Register a PCR home test kit before your hospital visit</a>
+            </th>
+            <td class="govuk-table__cell">(now closed)</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Report a COVID-19 rapid lateral flow test result</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Find where to get rapid lateral flow tests</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Find a rapid lateral flow test site in your area</a>
+            </th>
+            <td class="govuk-table__cell">(now closed)</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get a code to collect rapid lateral flow tests</a>
+            </th>
+            <td class="govuk-table__cell">(not live yet)</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Register for an antibody test kit to check if you've had coronavirus before</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+
+          <!-- - - - - - - SELF-ISOLATION - - - - - --->
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              Self-isolating
+            </th>
+            <td class="govuk-table__cell"></td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Apply for a Test and Trace Support Payment</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get an isolation note</a>
+            </th>
+            <td class="govuk-table__cell">NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Check an isolation note</a>
+            </th>
+            <td class="govuk-table__cell">NHSD</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get practical support to self-isolate</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA, NHSD</td>
+          </tr>
+
+          <!-- - - - - - - TRACE SERVICES - - - - - - -->
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              Sharing contacts
+            </th>
+            <td class="govuk-table__cell"></td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Contact tracing service</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h1 class="govuk-heading-l table-header" style="padding-top:2rem">
+        Mediated services
+      </h1>
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Name</th>
+            <th scope="col" class="govuk-table__header">Delivered by</th>
+          </tr>
+        </thead>
+
+        <tbody class="govuk-table__body">
+
+          <!-- - - - - - - LOCAL  - - - - - - -->
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              Local Authorities
+            </th>
+            <td class="govuk-table__cell"></td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get help and information</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get stock</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get funding</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Get and give data</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+
+          <!-- - - - - - - ORGANISATION  - - - - - - -->
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              Organisations
+            </th>
+            <td class="govuk-table__cell"></td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Register test kits and report results for your organisation</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <th scope="row" class="govuk-table__cell">
+              &mdash; <a href="get-tested-for-covid">Log test site COVID-19 results</a>
+            </th>
+            <td class="govuk-table__cell">UKHSA</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+{% endblock %}

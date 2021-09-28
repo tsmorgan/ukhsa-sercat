@@ -14,3 +14,33 @@ $govuk-font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", san
 $govuk-canvas-background-colour: $govuk-body-background-colour;
 
 @import "application";
+
+.govuk-template, .govuk-template__body {
+    margin: 0;
+    background-color:#F8F8F8;
+}
+
+.govuk-header {
+  background-color:white;
+}
+.govuk-header__link:link, .govuk-header__link:visited {
+  color:$govuk-border-colour;
+}
+
+.govuk-header__container {
+  border-bottom:none;
+}
+
+.govuk-table__header {
+  font-size:1rem;
+  font-weight:300;
+  color:govuk-colour("dark-grey");
+}
+
+.table-header {
+  margin:1rem 0;
+}
+
+// .govuk-main-wrapper--auto-spacing:first-child, .govuk-main-wrapper--l {
+//   padding-top:0;
+// }
