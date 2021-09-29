@@ -31,7 +31,7 @@ $govuk-canvas-background-colour: $govuk-body-background-colour;
   border-bottom:none;
 }
 
-.govuk-table__header {
+.govuk-table__header.services {
   font-size:1rem;
   font-weight:300;
   color:govuk-colour("dark-grey");
@@ -39,6 +39,28 @@ $govuk-canvas-background-colour: $govuk-body-background-colour;
 
 .table-header {
   margin:1rem 0;
+}
+
+.govuk-heading-s.role-heading {
+  margin-bottom:0px;
+}
+
+.no-marg {
+  margin-bottom:1.25rem;
+  p {
+  margin:0;}
+}
+
+.metadata {
+  margin-top:4rem;
+  margin-bottom:1rem;
+  border-top:1px solid govuk-colour("mid-grey");
+  padding:1rem;
+  padding-top:2rem;
+  a,h3,p {font-size:1em;}
+
+  // background: govuk-colour("blue");
+  // a,h3,p {color:white;font-size:1em;}
 }
 
 // .govuk-main-wrapper--auto-spacing:first-child, .govuk-main-wrapper--l {
